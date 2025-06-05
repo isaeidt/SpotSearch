@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #191414;
+    color: #FFFFFF;
+    user-select: none;
+}
+
+.buscar{
+    position: relative;
+    align-items: center;
+    width: 1032px;
+    height: 48px;
+    margin-top: 4px;
+    margin-left: 204px;
+}
+
+.buscar img{
+    transform: translate(-236px, 2px);
+    width: 12px;
+    height: 12px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+#inputBusca{
+  text-align:center;
+  border:none;
+  height:24px;
+  width:240px;
+  margin-top: 12px;
+  margin-left: 68px;
+  border-radius: 100px;
+  font-size: 10px;
+}
+
+#inputBusca:focus{
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 1032px;
+    height: 876px;
+    margin-left: 204px;
+    gap: 12px;
+}
+
+.telaArtistas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1032px;
+    gap: 24px;
+}
+
+#artistList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1032px;
+    gap: 24px;
+}
+
+.artista{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 24px;
+    width: 152px;
+    height: 202px;
+    background-color: #ffffff10;
+}
+
+.imgClose{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transform: none;
+}
+
+.artista li{
+    list-style: none;
+}
+
+.nome, .tipo {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.nome{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.tipo{
+    margin-top: 4px;
+    color: #ffffff57;
+    font-size: 13px;
+}
+
+.textSearch{
+    font-size: 29px ;
+    font-weight: 700;
+}
+
+.imgArtist{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.nenhumArtista{
+    list-style: none;
+    transform: translate(600px, 300px);
+    font-weight: 900;
+    font-size: 30px;
+    color: #49d312;
+}
