@@ -53,13 +53,6 @@ body{
     gap: 12px;
 }
 
-.telaArtistas{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1032px;
-    gap: 24px;
-}
 
 #artistList{
     display: flex;

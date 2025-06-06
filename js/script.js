@@ -10,11 +10,7 @@ function dadosJson(){
         .then(response => response.json())
         .then(data => {
             artists = data.artists
-        })
-        .catch(error => {
-            console.error("Erro ao carregar JSON")
-        })
-
+      })
 }
 
 inputBusca.addEventListener("input", function(event) {
